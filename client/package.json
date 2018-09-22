@@ -1,0 +1,20 @@
+{
+  "name": "chatter-client",
+  "version": "1.0.0",
+  "description": "The web client for the Chatter application",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "parcel index.html --hmr-port 35585"
+  },
+  "author": "Felix Fong <felix@felixfong227.ml> (https://felixfong227.ml)",
+  "license": "MIT",
+  "dependencies": {
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "parcel-bundler": "1.5.1",
+    "prop-types": "^15.6.2",
+    "react": "^16.5.0",
+    "react-dom": "^16.5.0"
+  }
+}
