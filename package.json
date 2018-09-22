@@ -1,0 +1,25 @@
+{
+  "name": "chatter",
+  "version": "1.0.0",
+  "description": "A simple Node base P2P chatting application",
+  "main": "server/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/felixfong227/chatter.git"
+  },
+  "author": "Felix Fong <felix@felixfong227.ml> (https://felixfong227.ml)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/felixfong227/chatter/issues"
+  },
+  "homepage": "https://github.com/felixfong227/chatter#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3",
+    "mongoose": "^5.2.13",
+    "sillyname": "^0.1.0"
+  }
+}
