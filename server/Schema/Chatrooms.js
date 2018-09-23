@@ -10,4 +10,4 @@ const schema = mongoose.Schema({
     },
     password: String,
 });
-module.exports = mongoose.model('Chatroom', schema);
+module.exports = mongoose.model('Chatrooms', schema);
