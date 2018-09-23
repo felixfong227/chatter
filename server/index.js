@@ -2,7 +2,7 @@ const express = require('express');
 const app = express();
 const bodyParser = require('body-parser');
 const mongoose = require('mongoose');
-const Chatroom = require('./Schema/Chatroom');
+const Chatrooms = require('./Schema/Chatrooms');
 
 mongoose.connect('mongodb://mongodb/chatter', error => {
     if(error){
@@ -27,7 +27,7 @@ app.get('/', (req, res) => {
 
 app.get('/chatrooms', async (req, res) => {
     // Find all public chatrooms
-    const allPublicChatrooms = await Chatroom.find({
+    const allPublicChatrooms = await Chatrooms.find({
         isPublic: true,
     }, {
         isPublic: 1,
